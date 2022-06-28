@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="My Suite One">
+  <test name="ChinmoyTest1">
+	<groups>
+		<run>
+			<include name="Smoke"></include>
+		</run>
+	</groups>
+	<classes>
+		<class name="TestNGPractice.AllAboutTestNG.MyTest2"></class>
+		<class name="TestNGPractice.AllAboutTestNG.MyTest3"></class>
+		<class name="TestNGPractice.AllAboutTestNG.MyTest4"></class>
+		<class name="test.MyTest5"></class>
+		<class name="test.Listeners"></class>
+		<class name="TestNGPractice.AllAboutTestNG.TestNGMyTest1"></class>
+	</classes> 	
+  </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="My Suite One">
+  <test name="ChinmoyTest1">
+	
+	<classes>
+		<class name="TestNGPractice.AllAboutTestNG.MyTest2">
+			<parameter name="URL" value="fresco.me"/>
+			<parameter name="UserName" value="Prem"/>
+		</class>
+		<class name="TestNGPractice.AllAboutTestNG.MyTest3">
+		</class>
+	</classes> 
+  </test>
+
+</suite> <!-- Suite -->
